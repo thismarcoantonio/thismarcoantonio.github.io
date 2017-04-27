@@ -1,5 +1,5 @@
-##Welcome to my github page
-------
+Welcome to my github page
+---
 
 Hi to everyone, my name is _Marco Antônio_, I'm from Brazil. For who doesn't have noticed yet, I love *JAVASCRIPT*.
 
