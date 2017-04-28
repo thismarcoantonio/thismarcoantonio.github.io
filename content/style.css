@@ -40,7 +40,8 @@ body{
 	border-radius: 3px;
 }
 .social a:hover{
-	background-color: #383535;
+	background-color: #E4F1FE;
+	color: #22313F;
 }
 h1{
 	display: flex;
