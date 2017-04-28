@@ -1,0 +1,33 @@
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: #E4F1FE;
+	background-color: #22313F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.global{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.text{
+	position: relative;
+}
+.dots{
+	position: absolute;
+	left: 100%;
+	top: 0;
+	margin-left: 5px;
+}
+h1{
+	display: flex;
+	text-transform: uppercase;
+}
