@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
-
-  <link rel="stylesheet" href="">
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <title>Marco Antônio - Personal Page</title>
 </head>
 <body>
-  
+  <header class="header">
+    <div class="header__logo">
+      <img src="./assets/header-logo.svg" alt="Hello World, I'm Marco Antônio, I'm a Front-end Developer"/>
+    </div>
+  </header>
+  <section class="section fade">
+    <div class="container">
+      <h1 class="section__title">ABOUT ME</h1>
+      <div class="section__body">
+        <p>
+          Hi, <b>I’m a front-end developer from Brazil</b>, working massively with javascript. With a background in design, I’m able to develop website and “lovely” applications.
+        </p>
+        <p>
+          If somehow you want to talk with me or go out and drink a coffe (hope you’re in Brazil), send me an email:
+          <span class="email">mjota51@gmail.com</span>
+        </p>  
+      </div>
+    </div>
+  </section>
+  <section class="section alternate">
+    <div class="container">
+      <h1 class="section__title">PORTFOLIO</h1>
+      <div class="section__body">
+        <p>
+          Currently I don’t have a whole big list to show you, but you’re welcome to scroll down see the developed (and old) projects. Most of them are not a big deal, but this will change soon ;)
+        </p>
+      </div>
+    </div>
+    <div class="portfolio-list">
+      <article class="portfolio">
+        <h1 class="portfolio__tag">Pomodoro</h1>
+        <div class="portfolio__pic">
+          <img src="./assets/portfolio/pomodoro.jpg">
+        </div>
+        <h2 class="portfolio__title">Pomodoro Clock</h2>
+        <p class="portfolio__body">Developed for FreeCodeCamp activity, the main focus is act like a count which takes breaks 5 minutes (as default) per time. This is an old Technique create around 1980s, and now a lot of people uses it (including me sometimes :D).</p>
+        <div class="portfolio__buttons">
+          <h3 class="buttons__title">Links:</h3>
+          <div class="buttons__group">
+            <a href=""><i class="fa fa-github"></i> github</a>
+            <a href=""><i class="fa fa-external-link"></i> demo</a>
+            <a href=""><i class="fa fa-plus"></i> more</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 </body>
 </html>
