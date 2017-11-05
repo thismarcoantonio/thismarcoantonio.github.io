@@ -60,7 +60,7 @@ ul {
   font-weight: 600;
 }
 .section.fade:after {
-  top: -60px;
+  top: -59px;
   position: absolute;
   content: '';
   display: block;
@@ -69,7 +69,7 @@ ul {
   height: 60px;
 }
 .section.fade:before {
-  bottom: -60px;
+  bottom: -59px;
   position: absolute;
   content: '';
   display: block;
