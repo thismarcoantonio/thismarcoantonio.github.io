@@ -204,4 +204,10 @@ ul {
   .portfolio {
     width: 33.3333%;
   }
+  .section.fade:after {
+    top: -100px;
+  }
+  .section.fade:before {
+    bottom: -80px;
+  }
 }
